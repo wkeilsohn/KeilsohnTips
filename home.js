@@ -1,4 +1,4 @@
-function copyCode(wallet_value) {
+function copyCode(wallet_value, result_value) {
   // Define Variabe
   var copyText = document.getElementById(wallet_value);
   // Create Area for text to go
@@ -12,5 +12,5 @@ function copyCode(wallet_value) {
   document.execCommand("copy");
   // Removes the text area and alert the user
   input.remove();
-  alert("Copied!");
+  document.getElementById(result_value).innerHTML = "Copied!";
 } 
