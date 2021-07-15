@@ -7,12 +7,16 @@ body{
 	text-align: center;
 	margin: 0;
 	padding: 0;
+	background-image: url("./images/jelly1.jpg"); /*Photo by Masaaki Komori on Unsplash*/
+	background-size: auto;
 }
 
 table{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 30px;
+	text-shadow: 2px 2px black;
+	color: white;
 }
 
 h1{
