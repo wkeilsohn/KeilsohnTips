@@ -12,5 +12,5 @@ function copyCode(wallet_value) {
   document.execCommand("copy");
   // Removes the text area and alert the user
   input.remove();
-  document.getElementById("copied_box").innerHTML = "Copied!";
+  document.getElementById("copied_box").innerHTML = "<div style='background-color: rgba(0, 255, 30, 0.4); width:15%; margin-left: auto; margin-right: auto; border-radius: 25px;'>Copied!</div>";
 } 
