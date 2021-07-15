@@ -1,7 +1,12 @@
-html, body{
+html{
+	height: 100%;
+} 
+
+body{
 	height: 100%;
 	text-align: center;
-	max-height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 table{
@@ -12,9 +17,28 @@ table{
 
 h1{
 	width: 100%;
-	text-align: center;
+	color: white;
+	height: 100%;
+}
+
+h2{
+	width: 100%;
+	margin-bottom: 0;
+	color: white;
+}
+
+h3{
+	margin: 0;
 }
 
 .codes{
 	width: 45%;
+}
+
+.navbar{
+	height: 5%;
+}
+
+.fixed-top{
+	padding-top: 0;
 }
